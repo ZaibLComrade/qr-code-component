@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body { 
+	font-family: Outfit;
 	position: relative;
 	height: 100vh;
 	overflow: hidden;
@@ -37,9 +40,13 @@ body {
 }
 
 .qr-heading {
+	color: hsl(218, 44%, 22%);
 	font-size: 24px;
+	font-weight: 700;
 }
 
 .qr-subheading {
-
+	font-size: 15px;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
 }
